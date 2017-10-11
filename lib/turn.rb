@@ -33,7 +33,7 @@ def turn(user_input)
   user_input = gets.chomp
   input_to_index(user_input)
 
-  if valid_move?(user_input) == (1..9)
+  if user_input == (1..9)
     puts valid_move?
   else user_input != (1..9)
     puts "Please enter 1-9:"
