@@ -34,7 +34,7 @@ def turn(user_input)
   input_to_index(user_input)
 
   if user_input == (1..9)
-    display_board
+    display_board(1..9)
   else user_input != (1..9)
     puts "Please enter 1-9:"
 
