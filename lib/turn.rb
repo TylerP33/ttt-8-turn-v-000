@@ -33,7 +33,7 @@ def turn(user_input)
   user_input = gets.chomp
   input_to_index(user_input)
 
-  if user_input = 1
+  if user_input == 1
     print ""
   end
 
