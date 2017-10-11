@@ -34,7 +34,7 @@ def turn(user_input)
   input_to_index(user_input)
 
   if user_input == (1..9)
-    puts valid_move?
+    puts 
   else user_input != (1..9)
     puts "Please enter 1-9:"
   end
