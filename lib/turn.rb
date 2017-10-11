@@ -35,7 +35,7 @@ def turn(user_input)
 
   if user_input == (1..9)
     puts display_board
-  else
+  else user_input != (1..9)
     puts "Please enter 1-9:"
   end
 
