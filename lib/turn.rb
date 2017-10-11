@@ -35,9 +35,9 @@ def turn(user_input)
 
   if user_input = 1
     print ""
-  end 
+  end
 
-  
+
 
 
 
