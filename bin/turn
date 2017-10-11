@@ -2,4 +2,5 @@
 
 board = Array.new(9, " ")
 puts "Welcome to tic tac toe!"
+display_board(board)
 turn(board)
